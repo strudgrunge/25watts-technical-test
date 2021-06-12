@@ -1,0 +1,36 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.nav-container {
+  background-color: #e0752f;
+}
+.logo-container {
+  color: white;
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    z-index: 1;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 35px 20px;
+    font-size: 16px;
+  }
+  .navbar-dark .navbar-nav .active {
+    border-bottom: 5px solid #e0752f;
+  }
+  .logo-container {
+    width: 128px;
+  }
+  .logo-container img {
+    width: 100%;
+  }
+  .nav-container {
+    border-bottom: 1px solid #e0752f;
+    background-color: transparent;
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+}
